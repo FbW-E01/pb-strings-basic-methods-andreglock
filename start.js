@@ -1,6 +1,6 @@
 const qOne = "I can walk in the park all day!";
 
-console.log(`Q1: ${qOne}`);
+console.log(`Q1: ${qOne.slice(18,23)}`);
 
 const qTwo = "Hello World";
 
@@ -32,4 +32,4 @@ console.log(`Q9: My name is ${firstName}. I live in ${city} and my hair is ${hai
 
 const variable = "the quick brown fox";
 
-console.log(`Q10: ${variable.slice(0,1).toLocaleUpperCase() + variable.slice(1)}`);
+console.log(`Q10: ${variable.slice(0,1).toUpperCase() + variable.slice(1)}`);
